@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<head>
+
+<html lang="en">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samurai Pizza Cats Homepage</title>
+<link rel="icon" href="spc.png" type="image/png">
+
+</head>
+<!--CSS-->
+<style>
+img {
+display: block;
+margin: auto;
+}
+h1 {text-align:center}
+p {text-align:center}
+tr {text-align:center}
+nav {text-align:center}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+</style>
+<!--CSS-->
+
+<!--Site navigation-->
+
+<body style="background-color: bisque;" style="margin: 0; padding: 20px; font-family: Arial, sans-serif;">
+
+<nav>
+  <a href="index.html">Homepage</a>
+  <a href="funfacts.html">Trivia</a>
+  <a href="cast.html">Characters</a>
+</nav>
+
+<style>
+  nav {
+    background-color: #222;       /* Dark background for the nav bar */
+    border: 2px solid #555;       /* Border around the nav bar */
+    display: flex;                /* Arrange links in a row */
+    padding: 10px 20px;           /* Padding inside the nav bar */
+    border-radius: 8px;           /* Rounded corners for the nav bar */
+    max-width: 600px;             /* Optional: limit width */
+    justify-content: center;
+    margin: 20px auto;            /* Center the nav bar horizontally */
+  }
+
+  nav a {
+    color: white;                 /* Text color */
+    background-color: #444;       /* Background color for each link box */
+    border: 1px solid #666;       /* Border around each link box */
+    padding: 10px 15px;           /* Space inside each link */
+    margin-right: 15px;           /* Space between link boxes */
+    text-decoration: none;        /* Remove underline */
+    border-radius: 6px;           /* Rounded corners for each box */
+    transition: background-color 0.3s, color 0.3s; /* Smooth hover transition */
+  }
+
+  nav a:last-child {
+    margin-right: 0;              /* Remove margin on last link */
+  }
+
+  nav a:hover {
+    background-color: #ff6600;   /* Highlight color on hover */
+    color: #fff;
+  }
+</style>
+
+<!--Site navigation-->
+
+<!--Index description-->
+
+ <h1>Samurai Pizza Cats Fansite</h1>
+
+<img src="samuraipizzacatshome.jpg" width="800">
+
+ <p>Samurai Pizza Cats is an animated television show produced by Saban Entertainment. <br> It is an adaptation of the anime series Kyatto Ninden Teyandee (Cat Ninja Legend Teyandee), produced by Tatsunoko Production and Sotsu Agency, <br> which originally aired in Japan on TV Tokyo from February 1, 1990 to February 12, 1991 for a total of 54 episodes. <br> Saban picked up the North American rights to the series in 1991 and produced a 52-episode English adaptation.<br><br>
+
+When Saban licensed the English version, proper translations of and information about the original Japanese episodes were either of poor quality or non-existent. <br> It was decided to write completely original dialogue for the English dub, playing the show as a wacky comedy in contrast to the less farcical original. <br> The English-language version became a cult hit among anime fans due to its rapid-fire pop-culture references and farcical nature.</p>
+
+<!--Index description-->
+
+<!--Youtube embed-->
+
+<iframe width="420" height="315" style="display: block; margin: 0 auto;"
+src="https://www.youtube.com/embed/WZNt9p4LWeA">
+</iframe>
+
+<!--Youtube embed-->
+
+<!--HTML TABLE-->
+<p style="text-align: center;">Contact me!</p>
+<table border="2" style="background-color:rgb(212, 37, 37)" class="center">
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Contact</th>
+  </tr>
+  <tr>
+    <td>Place Holder</td>
+    <td><a href="mailto:placeholderemail@gmail.com">placeholderemail@gmail.com</a></td>
+    <td>123-456-7890</td>
+  </tr>
+</table>
+
+<!--HTML TABLE-->
+
+<!--Form-->
+
+<form style="max-width: 400px; margin: 20px auto; font-family: Arial, sans-serif; background: #f9f9f9; padding: 20px; border: 2px solid #ccc; border-radius: 10px;">
+
+  <!-- Header -->
+  <h2 style="text-align: center; color: #cc3300; margin-bottom: 25px;">
+    SPC Fansite visitation form
+  </h2>
+
+  <!-- Radio buttons label -->
+  <label style="display: block; font-weight: bold; margin-bottom: 10px;">
+    <div style="text-align: center;">
+    Which of the pizza cats is your favorite?
+    </div>
+  </label>
+
+  <!-- Radio buttons container -->
+  <div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
+    <div style="text-align: center;">
+      <input type="radio" id="speedy" name="favorite_cat" value="Speedy Cerviche" style="margin-bottom: 5px;">
+      <br>
+      <label for="speedy" style="font-size: 14px;">Speedy Cerviche</label>
+    </div>
+    <div style="text-align: center;">
+      <input type="radio" id="guido" name="favorite_cat" value="Guido Anchovy" style="margin-bottom: 5px;">
+      <br>
+      <label for="guido" style="font-size: 14px;">Guido Anchovy</label>
+    </div>
+    <div style="text-align: center;">
+      <input type="radio" id="polly" name="favorite_cat" value="Polly Esther" style="margin-bottom: 5px;">
+      <br>
+      <label for="polly" style="font-size: 14px;">Polly Esther</label>
+    </div>
+    <div style="text-align: center;">
+      <input type="radio" id="not_sure" name="favorite_cat" value="Not sure, I'm just visiting!" style="margin-bottom: 5px;">
+      <br>
+      <label for="not_sure" style="font-size: 14px;">Not sure, I'm just visiting!</label>
+    </div>
+  </div>
+
+  <!-- Dropdown label -->
+  <label for="discovery" style="display: block; font-weight: bold; margin-bottom: 10px;">
+    <div style="text-align: center;">
+    How did you find out about this site?
+    </div>
+  </label>
+
+  <!-- Dropdown -->
+  <select id="discovery" name="discovery" style="text-align: center; width: 100%; padding: 8px; margin-bottom: 20px; border-radius: 5px; border: 1px solid #ccc; font-size: 14px;">
+    <option value="">-- Please select --</option>
+    <option value="word_of_mouth">Word of mouth</option>
+    <option value="browsing">Browsing for Pizza Cats content</option>
+    <option value="stumbled">I stumbled upon this place!</option>
+  </select>
+
+  <!-- Comment label -->
+  <label for="comments" style="display: block; font-weight: bold; margin-bottom: 10px;">
+    <div style="text-align: center;">
+    What do you know about Samurai Pizza Cats? <br> (if applicable)
+      </div>
+  </label>
+
+  <!-- Comment textarea -->
+  <textarea id="comments" name="comments" rows="4" style="width: 100%; padding: 8px; border-radius: 5px; border: 1px solid #ccc; font-family: Arial, sans-serif; font-size: 14px; margin-bottom: 20px;" placeholder="Your comments here..."></textarea>
+
+  <!-- Buttons -->
+  <div style="text-align: center;">
+    <input type="submit" value="Submit" style="background-color: #cc3300; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold; margin-right: 10px;">
+    <input type="reset" value="Reset" style="background-color: #777; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
+  </div>
+
+</form>
+
+<!--Form-->
+
+</body>
+
+</html>
